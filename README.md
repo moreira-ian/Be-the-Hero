@@ -9,3 +9,6 @@ Projeto desenvolvido com as seguintes tecnologias:
 - [ExpressJs](https://expressjs.com/pt-br/)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [Axios](https://www.npmjs.com/package/axios)
+
+### Desenvolvimento
+Projeto desenvolvido com base no conteúdo da <strong> Semana Omnistack 11.0</strong> ministrada pelo </b> [Diego Fernandes](https://github.com/diego3g)
