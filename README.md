@@ -1,4 +1,7 @@
-# Be-the-Hero
+<h5 align="center">
+    <img alt="Logo" title="#logo" src="https://github.com/moreira-ian/Be-the-Hero/blob/master/mobile/src/assets/logo%403x.png">
+</h5>
+<br/>
 Este é um projeto que visa ajudar de maneira financeira uma instituição de caridade.
 
 ## :rocket: Tecnologias
