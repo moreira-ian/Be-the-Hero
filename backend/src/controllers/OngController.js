@@ -1,11 +1,10 @@
-const generateUniqueId = require('../utils/generateUniqueId');
-const connection = require('../database/connection');
-
+const generateUniqueId = require("../utils/generateUniqueId");
+const connection = require("../database/connection");
 
 module.exports = {
     //Get - Listagem
     async index(request, response) {
-        const ongs = await connection('ongs').select('*');
+        const ongs = await connection("ongs").select("*");
         return response.json(ongs);
     },
     //Post
@@ -15,7 +14,7 @@ module.exports = {
 
         const id = generateUniqueId();
 
-        await connection('ongs').insert({
+        await connection("ongs").insert({
             id,
             name,
             email,
@@ -24,5 +23,5 @@ module.exports = {
             uf,
         });
         return response.json({ id });
-    }
-}
+    },
+};

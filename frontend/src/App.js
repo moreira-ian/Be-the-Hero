@@ -1,16 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './global.css'
-import Routes from './routes';
-
-
+import "./global.css";
+import Routes from "./routes";
 
 function App() {
-
-  return ( 
-    <div>
-        <Routes/>
-    </div>
-  );
+    return (
+        <div>
+            <Routes />
+        </div>
+    );
 }
 export default App;

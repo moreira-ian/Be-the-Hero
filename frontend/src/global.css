@@ -1,28 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-
 }
 
-body{
+body {
     font: 400 14px Roboto, sans-serif;
-    background:#f0f0f5  ;
+    background: #f0f0f5;
     -webkit-font-smoothing: antialiased;
 }
 
-imput, button, textarea{
+imput,
+button,
+textarea {
     font: 400 18px Roboto, sans-serif;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-form input{
+form input {
     width: 100%;
     height: 60px;
     color: #3333;
@@ -31,7 +32,7 @@ form input{
     padding: 0 24px;
 }
 
-form textarea{
+form textarea {
     width: 100%;
     min-height: 140px;
     color: #3333;
@@ -42,13 +43,13 @@ form textarea{
     resize: vertical;
 }
 
-.button{
+.button {
     width: 100%;
     height: 60px;
-    background: #E02041;
+    background: #e02041;
     border: 0;
     border-radius: 8px;
-    color: #FFF;
+    color: #fff;
     font-weight: 700;
     margin-top: 16px;
     display: inline-block;
@@ -59,12 +60,11 @@ form textarea{
     transition: 0.2s;
 }
 
-.button:hover{
+.button:hover {
     filter: brightness(90%);
 }
 
-
-.back-link{
+.back-link {
     display: flex;
     align-items: center;
     margin-top: 40px;
@@ -75,10 +75,10 @@ form textarea{
     transition: opacity 0.2s;
 }
 
-.back-link svg{
+.back-link svg {
     margin: 8px;
 }
 
-.back-link:hover{
+.back-link:hover {
     opacity: 0.8;
 }

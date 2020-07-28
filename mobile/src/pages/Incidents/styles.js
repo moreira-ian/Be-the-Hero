@@ -1,65 +1,65 @@
-import {StyleSheet} from 'react-native';
-import Constants from 'expo-constants';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
+import { StyleSheet } from "react-native";
+import Constants from "expo-constants";
+import { Colors } from "react-native/Libraries/NewAppScreen";
 
 export default StyleSheet.create({
-    container:{
+    container: {
         flex: 1,
         paddingHorizontal: 24,
         paddingTop: Constants.statusBarHeight + 20,
     },
-    header:{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center'
+    header: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
     },
-    headerText:{
-        fontSize: 15, 
-        color: '#737380'
+    headerText: {
+        fontSize: 15,
+        color: "#737380",
     },
-    headerTextBold:{
-        fontWeight: 'bold'
+    headerTextBold: {
+        fontWeight: "bold",
     },
-    title:{
+    title: {
         fontSize: 30,
         marginBottom: 16,
         marginTop: 48,
-        color: '#13131a',
-        fontWeight: 'bold'
+        color: "#13131a",
+        fontWeight: "bold",
     },
-    description:{
+    description: {
         fontSize: 16,
         lineHeight: 24,
-        color: '#737380'      
+        color: "#737380",
     },
-    incidentList:{
-        marginTop:32
+    incidentList: {
+        marginTop: 32,
     },
-    incident:{
+    incident: {
         padding: 24,
         borderRadius: 8,
-        backgroundColor: '#FFF',
-        marginBottom: 16
+        backgroundColor: "#FFF",
+        marginBottom: 16,
     },
-    incidentProperty:{
+    incidentProperty: {
         fontSize: 14,
-        color: '#41414d',
-        fontWeight: 'bold'
+        color: "#41414d",
+        fontWeight: "bold",
     },
-    incidentValue:{
+    incidentValue: {
         marginTop: 8,
         fontSize: 15,
         marginBottom: 24,
-        color: '#737380'
+        color: "#737380",
     },
-    detailsButton:{
-        flexDirection: 'row',
-        justifyContent: 'space-between', 
-        alignItems: 'center'
+    detailsButton: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
     },
-    detailsButtonText:{
-        color: '#E02041',
+    detailsButtonText: {
+        color: "#E02041",
         fontSize: 15,
-        fontWeight: 'bold'
+        fontWeight: "bold",
     },
 });
